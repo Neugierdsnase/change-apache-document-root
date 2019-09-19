@@ -16,7 +16,7 @@ chadr() {
 or like so in [fish](https://fishshell.com/):
 ```fish
 function chadr
-    python3 ~/path/to/where/you/cloned/change_apache_document_root/change_doc_root.py $argv
+    sudo python3 ~/path/to/where/you/cloned/change_apache_document_root/change_doc_root.py $argv
 end
 ```
 
